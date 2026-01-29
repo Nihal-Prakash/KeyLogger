@@ -1,0 +1,27 @@
+# ---- Build artifacts ----
+*.o
+*.obj
+*.out
+*.exe
+a.out
+
+# ---- CMake generated files ----
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+CTestTestfile.cmake
+install_manifest.txt
+
+# ---- Editor / OS noise ----
+*~
+*.swp
+*.swo
+.vscode/
+.idea/
+.DS_Store
+
+# ---- Debug / profiling ----
+*.log
+*.prof
+*.gprof
